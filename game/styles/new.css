@@ -1,0 +1,27 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+h1 {
+  color: white; /* цвет текста */
+  text-align: center; /* выравнивание текста по центру */
+}
+
+p {
+  color: white; /* цвет текста */
+  text-align: center; /* выравнивание текста по центру */
+}
+
+.background-image {
+  background-image: url("C:\Users\User\Desktop\game\ehupdacp113.png"); /* путь к вашей картинке */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* чтобы задний фон был ниже содержимого */
+}
